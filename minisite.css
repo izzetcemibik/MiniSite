@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cornflowerblue;
+}
+.container{
+    background-color: cornflowerblue;
+    border: 1px;
+    border-color: red;
+    width: 900px;
+    height: 600px;
+    margin: auto;/*ortaya geldi*/
+}
+.sidebar{
+    background-color: darkblue;
+    float: left;
+    width: 200px;
+    height: 600px;
+}
+.sidebar ul{
+    padding: 20px;
+    list-style-type: none;
+}
+.sidebar ul li{
+    line-height: 70px;
+    background-color: darkturquoise;
+    text-align: center;
+    margin-top: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar ul li a:hover{ /*inline şeyinde bunu block tipine çevircez*/
+    background-color: deeppink;
+    display: block;
+}
+.content{
+    background-color: darkslateblue;
+    float: left;
+    height: 600px;
+    width: 680px;
+    margin-left: 20px;
+    padding: 20px;
+}
